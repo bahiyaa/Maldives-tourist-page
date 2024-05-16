@@ -1,0 +1,307 @@
+*{
+    font-family: 'DINPro-Bold', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.banner_img{
+   
+    background-image:url(https://visitmaldives.s3.amazonaws.com/ywDypjYN/c/y0xhmgek-slide.jpg);
+    background-position: 30%;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    min-height: 80vh;
+    padding-bottom: 310px;
+    padding-top: 25px;
+}
+.navbar{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    margin-left: 40px;
+    width: 95%;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+    /* to vertically place child elements center */
+}
+
+ul li{
+    display: inline;
+    color: white;
+    padding: 0.5rem 1rem;
+    
+}
+.link{
+    font-size: 16px;
+    color: white;
+   
+    /* padding: 8px 16px; */
+    margin-top: 0px;
+   
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    color:rgb(220, 212, 212);
+    text-decoration: underline;
+}
+.title h1,h2{
+    font-family: 'Carattere', cursive;
+    font-weight: 400;
+    font-size: 5rem;
+    margin-bottom: -20px !important;
+    color: white;
+    text-align: center;
+    align-items: center;   
+}
+.ban_btn{
+    margin-left: 45rem;
+     margin-top: 2rem;
+     width: 10rem;
+     height: 2rem;
+     border-radius: .9rem;
+     font-size: 0.9rem;
+     font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all .5s ease;
+   border:1px solid white;
+    color: white;
+   background-color: transparent;
+   
+
+}
+.ban_btn:hover{
+    background-color: #e98f44;
+    cursor: pointer; 
+}
+.icons{
+    margin: 0px 8px 10px 0px;
+    padding: 0px 15px;
+    display: flex;
+}
+.time,.place,.date,.weather{
+    color: #68bfe2;
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    margin: 25px 30px;
+}
+.time__ampm,.date_year{
+    color: #e98f44;
+}
+.place h3{
+    font-size: 16px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+.title_main{
+    font-weight: 300;
+    margin-bottom: 4rem;
+    padding-bottom: 1rem;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #989898;
+    line-height: 1.5;
+    text-decoration: underline #e98f44;
+    text-decoration-skip-ink: auto; 
+    padding-bottom: 30px;
+    padding: 0px 10px 16px;
+    margin: 0px 0px 64px;
+}
+.title_main h1{
+    padding-bottom: 15px;
+}
+.stay_cards{
+    display: flex;
+    
+}
+.card_hotels,.card_resorts,.card_liveboards,.card_guesthouses{
+    width:300px;
+    height: 400px;
+    margin: 10px 15px;
+    border: 3.5px solid #e98f44;
+    border-radius: 10px;
+    margin-right: 45px;
+}
+.stay_cards img{
+    width: 300px;
+    height: 160px;
+   margin-left: 0px;
+    border-radius: 6px;
+}
+.stay_cards h3{
+    margin: 15px 15px;
+    color: #68bfe2;
+    font-weight: 600;
+}
+.stay_cards p{
+    line-height: 1.9;
+    margin: 15px;
+}
+.card_btn button{
+    margin-top: 10px;
+    margin-left: 80px;
+    width: 8rem;
+    height: 2rem;
+    border-radius: .9rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   transition: all .5s ease;
+  border:1px solid white;
+   color: white;
+  background-color: #e98f44;
+}
+.card_btn button:hover{
+    cursor: pointer;
+    background-color: #fc5b14;
+}
+.book_btn button{
+    margin-top: 50px;
+    margin-left: 40%;
+    width: 18rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   transition: all .5s ease;
+  border:3.5px solid #e98f44;
+   color: #e98f44;
+  background-color: transparent;
+}
+.book_btn button:hover{
+    background-color: #e98f44;
+    color: white;
+    transition: 0.5 ease-in;
+    cursor: pointer;
+}
+.partition{
+    display: flex;
+   margin: 0px;
+   padding: 0px;
+}
+.lists{
+    width: 90%;
+    height: 100%;
+    background-color: #004a8e;
+    color: #fff;
+    padding: 90px 0 45px;
+    border-radius: .5rem;
+}
+.subscribe_btn{
+    width: 10%;
+    background-color:#fff;
+   height: 100%;
+   margin-right: 45px;
+}
+.trip_btn{
+    margin-bottom: 10px;
+    margin-top: 160px;
+    margin-left: 2px;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 1.9rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   transition: all .5s ease;
+  border:1px solid white;
+   color: white;
+  background-color: #e98f44;
+ 
+    
+
+}
+.trip_btn:hover{
+    background-color:#fc5b14 ;
+    cursor: pointer;
+}
+
+.login_btn{
+    margin-top: 20px;
+    margin-left:2px;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 1.9rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   transition: all .5s ease;
+  border:3.5px solid #e98f44;
+   color: #e98f44;
+  background-color: transparent;
+  margin-bottom: 25px;
+}
+.login_btn:hover{
+    background-color: #e98f44;
+    color: white;
+    transition: 0.5 ease-in;
+    cursor: pointer;
+
+}
+
+.lists{
+    margin: 30px;
+}
+.bottom_title{
+    display: flex;
+}
+.latest,.about,.contact,.address{
+    margin: 35px;
+    margin-left: 50px;
+}
+.lists h4,.lists h5{
+   text-align: center;
+   align-items: center;
+   padding: 10px 25px;
+}
+.lists h4{
+    margin-bottom: 25px;
+    font-weight: 600;
+    color: #68bfe2;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.lists h5{
+    margin-top: 8px;
+}
+footer{
+    background-color: #68bfe2;
+   
+    text-align: center;
+    align-items: center;
+    margin-left: 35px;
+   
+}
+footer h5{
+    /* background-color: #68bfe2; */
+    align-items: center;
+    text-align: center;
+    height: 30px;
+    /* margin-top: 15px; */
+    /* margin-top: 75px; */
+
+}
+
+    
+
